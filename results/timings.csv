@@ -1,0 +1,5 @@
+algorithm,trial,vertices,edges,seconds,solution_size
+vertex_cover_basic,0,450,17827,0.21017429999999998,446
+vertex_cover_random,0,450,17827,0.3549301,439
+coloring_basic,0,450,17827,0.001553400000000038,33
+coloring_degree,0,450,17827,0.0018097000000000252,28

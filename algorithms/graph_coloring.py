@@ -1,4 +1,3 @@
-"""Greedy graph coloring algorithms. Implement both algorithms yourself."""
 from graph.graph import Graph, Node
 
 

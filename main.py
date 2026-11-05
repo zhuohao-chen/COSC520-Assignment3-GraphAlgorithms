@@ -13,8 +13,10 @@ def main():
 
     cover = basic_vertex_cover(graph)
 
-    print("Vertex Cover:", cover)
-    print("Cover Size:", len(cover))
+    basic_vertex_cover(graph)
+    randomized_vertex_cover(graph)
+    greedy_basic_coloring(graph)
+    largest_degree_first_coloring(graph)
 
 
 if __name__ == '__main__':

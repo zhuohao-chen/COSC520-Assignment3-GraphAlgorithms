@@ -1,4 +1,3 @@
-"""Vertex cover algorithms. Implement both algorithms yourself."""
 import random
 from graph.graph import Graph, Node
 from typing import Optional

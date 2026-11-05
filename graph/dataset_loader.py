@@ -9,7 +9,6 @@ def load_edge_list(path: Union[str, Path]) -> Graph:
 
     Input: path to a text file; lines with '#' prefix are ignored.
     Output: Graph with integer node IDs.
-    Note: BHOSLIB/FRB DIMACS files need a separate parser (TODO).
     """
     adjacency: dict[int, set[int]] = {}
     with open(path, encoding='utf-8') as handle:
